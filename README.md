@@ -22,23 +22,41 @@ This repo contains general contributing guidelines
 
 ```dart
 // Comment
+class Example {
+  var x = 0;
+  var y = 0;
+
+  Example(this.x, this.y);
+}
+
 void main() {
-  var s = "Moraczanin";
-  var i = 100;
-  var e = 1 + 2;
-  var l = [ item1, item2 ];
+  var b = true; // bool
+  var s = "Moraczanin"; // str (String)
+  var i = 100; // int
+  var ii = 3.14; // double
+  var e = i + ii; // expression
+  var l = [ i, ii ]; // list
   var ll = [
-    item1,
-    item2,
-    item3,
-    item4,
-    item5
-  ];
+    b,
+    s,
+    i,
+    ii,
+    e
+  ]; // long list
   var d = {
     "key1": "value1",
     "key2": "value2"
-  };
-  print("d's key1 value equals ${d['key1']}");
+  }; // dict (Map)
+  delayedPrint("d's key1 value equals ${d['key1']}");
+  var example = Example(1, 1);
+  print("Example's x equals ${example.x}, and y equals ${example.y}");
+}
+
+Future<void> delayedPrint(message) async {
+  await Future.delayed(
+    Duration(seconds: 1)
+  );
+  print(message);
 }
 ```
 
