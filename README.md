@@ -1,4 +1,4 @@
-# Moraczanie
+# Moraczanie Contributing Guidelines
 
 This repo contains general contributing guidelines
 
