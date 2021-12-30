@@ -4,6 +4,20 @@ This repo contains general contributing guidelines
 
 ## Syntax Standards
 
+* Your opening brackets **should** be inline with their opening statement.
+* You **should** add spaces between arguments in functions
+* **Use** "" to wrap strings and '' for strings inside them.
+* Your document **should** be structured like this:
+  - general imports
+  - application specific imports
+  - class definitions
+  - main function
+  - additional functions
+* **Use** spaces between arguments in expressions
+* **Use** camelCase for function names
+* **Use** CapitalizedCamelCase for class names
+
+
 #### Dart
 
 ```dart
