@@ -19,6 +19,9 @@ This repo contains general contributing guidelines
 
 
 #### Dart
+```bash
+dart examples/example.dart
+```
 
 ```dart
 // Comment
@@ -86,6 +89,9 @@ Future<void> delayedPrint(message) async {
 ```
 
 #### Python
+```bash
+python3 examples/example.py
+```
 
 ```python
 # Comment
