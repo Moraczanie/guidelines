@@ -61,28 +61,41 @@ Future<void> delayedPrint(message) async {
 ```
 
 #### Python
-Your opening brackets should be inline with their opening statement.</br>
-You should add space between arguments in funcions</br>
-Use "" to wrap strings and '' for strings inside them.</br>
 
 ```python
+import asyncio
 # Comment
-def fun(arg1, arg2) {
-    s = "Moraczanin"
-    i = 100
-    e = 1 + 2
-    l = [ item1, item2 ]
+class Example:
+    def __init__(self, x = 0, y = 0):
+        self.x = x
+        self.y = y
+
+async def main():
+    b = True # bool
+    s = "Moraczanin" # str
+    i = 100 # int
+    ii = 3.14 # float
+    e = i + ii # expression
+    l = [ i, ii ] # list
     ll = [
-        item1,
-        item2,
-        item3,
-        item4,
-        item5
-    ]
+        b,
+        s,
+        i,
+        ii,
+        e
+    ] # long list
     d = {
         "key1": "value1",
         "key2": "value2"
-    }
-    print(f"d's key1 is equal {c['key1']}")
-}
+    } # dict
+    await delayedPrint(f"d's key1 equals {d['key1']}")
+    example = Example(1, 1)
+    print(f"Example's x equals {example.x}, and y equals {example.y}")
+
+async def delayedPrint(message):
+    await asyncio.sleep(1)
+    print(message)
+
+if __name__ == "__main__":
+    asyncio.run(main())
 ```
