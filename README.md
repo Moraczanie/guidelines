@@ -22,6 +22,7 @@ This repo contains general contributing guidelines
 
 ```dart
 // Comment
+
 class Example {
   var x = 0;
   var y = 0;
@@ -47,8 +48,14 @@ void main() {
     "key1": "value1",
     "key2": "value2"
   }; // dict (Map)
+
   delayedPrint("d's key1 value equals ${d['key1']}");
+
   var example = Example(1, 1);
+
+
+
+
   print("Example's x equals ${example.x}, and y equals ${example.y}");
 }
 
@@ -63,8 +70,9 @@ Future<void> delayedPrint(message) async {
 #### Python
 
 ```python
-import asyncio
 # Comment
+import asyncio
+
 class Example:
     def __init__(self, x = 0, y = 0):
         self.x = x
@@ -88,8 +96,14 @@ async def main():
         "key1": "value1",
         "key2": "value2"
     } # dict
+
     await delayedPrint(f"d's key1 equals {d['key1']}")
+
     example = Example(1, 1)
+
+
+
+
     print(f"Example's x equals {example.x}, and y equals {example.y}")
 
 async def delayedPrint(message):
