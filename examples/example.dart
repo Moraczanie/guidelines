@@ -34,10 +34,10 @@ void main() {
   // cfs if-elif-else
   if (example.x != 0 && example.y != 0) {
     print("Example isn't (0,0)");
-  } else if (example.x = 0 && example.y != 0) {
-    print("Example is (0,y)")
+  } else if (example.x == 0 && example.y != 0) {
+    print("Example is (0,y)");
   } else {
-    print("Example is unknown")
+    print("Example is unknown");
   }
 
   // cfs for

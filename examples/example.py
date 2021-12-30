@@ -33,7 +33,7 @@ async def main():
     # cfs if-elif-else
     if example.x != 0 and example.y != 0:
       print("Example isn't (0,0)")
-    elif example.x = 0 and example.y != 0:
+    elif example.x == 0 and example.y != 0:
       print("Example is (0,y)")
     else:
       print("Example is unknown")
