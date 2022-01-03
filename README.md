@@ -1,6 +1,28 @@
-# Moraczanie Contributing Guidelines
+# Moraczanie Guidelines
 
 This repo contains general contributing guidelines
+
+## Contributing
+
+Your commits should be prefixed with what they change in the project.
+</br>
+`fix: ` for fixes & patches
+</br>
+`dev: ` for commits during feature addition
+</br>
+`add: ` for the last commit of adding a feature
+</br>
+`update: ` for commits that change a mechanism already present
+</br>
+`i18n: ` for commits that add localization
+</br>
+`docs: ` for commits that add documentation outside of the official docs
+</br>
+`build: ` for commits that build a new release
+</br>
+`builder:` for commits that relate to the builder scripts outside of the official general builder
+</br>
+`move: ` for commits that move files and change their in-project paths
 
 ## Syntax Standards
 
@@ -19,10 +41,6 @@ This repo contains general contributing guidelines
 
 
 #### Dart
-```bash
-dart examples/example.dart
-```
-
 ```dart
 // Comment
 
@@ -89,10 +107,6 @@ Future<void> delayedPrint(message) async {
 ```
 
 #### Python
-```bash
-python3 examples/example.py
-```
-
 ```python
 # Comment
 import asyncio
