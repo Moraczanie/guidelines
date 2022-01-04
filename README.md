@@ -78,7 +78,7 @@ void main() {
   // cfs if-elif-else
   if (example.x != 0 && example.y != 0) {
     print("Example isn't (0,0)");
-  } else if (example.x == 0 && example.y != 0) {
+  } else if (example.x == 0) {
     print("Example is (0,y)");
   } else {
     print("Example is unknown");
@@ -141,9 +141,9 @@ async def main():
     example = Example(1, 1)
 
     # cfs if-elif-else
-    if example.x != 0 and example.y != 0:
+    if (example.x != 0) and (example.y != 0):
       print("Example isn't (0,0)")
-    elif example.x == 0 and example.y != 0:
+    elif example.x == 0:
       print("Example is (0,y)")
     else:
       print("Example is unknown")
