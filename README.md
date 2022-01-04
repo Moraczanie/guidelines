@@ -23,6 +23,8 @@ Your commits should be prefixed with what they change in the project.
 `builder:` for commits that relate to the builder scripts outside of the official general builder
 </br>
 `move: ` for commits that move files and change their in-project paths
+</br>
+`del: ` for commits that remove features
 
 ## Syntax Standards
 
