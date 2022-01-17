@@ -25,6 +25,8 @@ Your commits should be prefixed with what they change in the project.
 `move: ` for commits that move files and change their in-project paths
 </br>
 `del: ` for commits that remove features
+</br>
+`git: ` for git-related commits
 
 ## Syntax Standards
 
