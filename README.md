@@ -146,20 +146,20 @@ async def main():
 
     # cfs if-elif-else
     if (example.x != 0) and (example.y != 0):
-      print("Example isn't (0,0)")
+        print("Example isn't (0,0)")
     elif example.x == 0:
-      print("Example is (0,y)")
+        print("Example is (0,y)")
     else:
-      print("Example is unknown")
+        print("Example is unknown")
 
     # cfs for
     for i in range(2, 5):
-      print(f"Counting... {i - 1}")
+        print(f"Counting... {i - 1}")
 
     # cfs while
     while i <= 10:
-      print(f"Counting... {i}")
-      i += 1
+        print(f"Counting... {i}")
+        i += 1
 
     print(f"Example's x equals {example.x}, and y equals {example.y}")
 
